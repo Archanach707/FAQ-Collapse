@@ -86,6 +86,13 @@ h1 {
   width: 30px;
 }
 
+.fa-chevron-down:before {
+  content: "\f078";
+  left: 4px;
+  top: -2px;
+  position: relative;
+}
+
 .faq-toggle:focus {
   outline: 0;
 }
@@ -94,14 +101,15 @@ h1 {
   display: none;
 }
 
-.faq.active .faq-toggle .fas.fa-times {
+.faq.active .faq-toggle .fa-times {
   color: #fff;
   display: block;
   position: relative;
-  right: 11px;
+  right: 9px;
+  font-size: 20px;
 }
 
-.faq.active .faq-toggle .fas.fa-chevron-down {
+.faq.active .faq-toggle .fa-chevron-down {
   display: block;
 }
 
